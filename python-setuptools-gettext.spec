@@ -13,6 +13,7 @@ BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python3)
 BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(pip)
 
 Provides:       %{pypi_name} = %{version}-%{release}
 Provides:       python%{pyver}dist(setuptools-gettext) = %{version}-%{release}
