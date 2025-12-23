@@ -1,7 +1,7 @@
 %define pypi_name setuptools-gettext
 
 Name:           python-%{pypi_name}
-Version:        0.1.11
+Version:        0.1.16
 Release:        1
 Summary:        Widget to display page-based documents for Qt5/PyQt5
 Group:          Development/Python
@@ -12,7 +12,7 @@ Source0:        https://files.pythonhosted.org/packages/source/%{pypi_name}/%{py
 BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python3)
-BuildRequires:  python3dist(setuptools)
+BuildRequires:  python%{pyver}dist(setuptools)
 
 Provides:       %{pypi_name} = %{version}-%{release}
 
