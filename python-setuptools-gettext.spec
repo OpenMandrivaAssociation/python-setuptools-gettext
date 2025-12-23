@@ -15,6 +15,7 @@ BuildRequires:  pkgconfig(python3)
 BuildRequires:  python%{pyver}dist(setuptools)
 
 Provides:       %{pypi_name} = %{version}-%{release}
+Provides:       python%{pyver}dist(setuptools-gettext) = %{version}-%{release}
 
 %description
 The qpageview module provides a page based document viewer widget
@@ -24,7 +25,7 @@ formats. Currently, it supports SVG documents, images, and,
 using the Poppler-Qt5 binding, PDF documents.
 
 %prep
-%autosetup -p1 -n %{pypi_name}-%{version}
+%autosetup -p1 -n setuptools_gettext-%{version}
 
 %build
 %py_build
