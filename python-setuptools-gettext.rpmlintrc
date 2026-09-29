@@ -1,0 +1,8 @@
+# upstream false positive
+addFilter("E: incorrect-fsf-address")
+# technical terms, not misspellings
+addFilter("E: spelling-error \('distutils'")
+addFilter("E: spelling-error \('msgfmt'")
+addFilter("E: spelling-error \('po'")
+addFilter("E: spelling-error \('pyproject'")
+addFilter("E: spelling-error \('toml'")
