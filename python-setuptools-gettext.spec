@@ -4,7 +4,7 @@
 Name:		python-%{pypi_name}
 Summary:	Setuptools gettext extension plugin
 Version:	0.1.19
-Release:	1
+Release:	2
 Group:		Development/Python
 License:	GPL-2.0-or-later
 URL:		https://github.com/breezy-team/setuptools-gettext
